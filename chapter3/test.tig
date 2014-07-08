@@ -1,0 +1,147 @@
+(
+/**** testing nested IFs ******/
+    if
+    (
+        aasdf;
+        asdf;
+        123
+    )
+    then
+    (
+        if
+            yes
+        then
+            no
+        ;
+        
+        123
+    )
+    else
+        asdf
+    ;
+    
+    if 
+        yes
+    then
+        no
+    ;
+    
+    
+    asdf;
+    
+/***** testing LET ******/
+    let
+        type a = b
+        type b = {}
+        type d = {e : f}
+        type e = {f : g, g : h, h : i}
+        type c = array of d
+    in
+    (
+        if
+            asd
+        then
+            asd
+        ;
+        
+        id
+        
+    )
+    end;
+    
+    let
+        type a = b
+    in
+        exp
+    end;
+    
+/******test*****/    
+    
+    let
+        type a = b
+    in
+        id
+    end;
+    
+    A;
+    
+/******* operators *********/
+-7;
+-b;
+-b + a;
+-b + -a;
+--b + -a;
+---123;
+-123 & 123;
+a + b;
+a + b * c;
+a & b -c;
+a / b + c < d * e & f <= c;
+a < b;
+a + b;
+a < b - c;
+a <= c -c;
+a >= z ;
+123 < 123;
+123 | ffg;
+"abcd" < "efg";
+
+
+/****** testing declarations ******/
+
+let
+    var num1 := 13
+    var num2 : int := 23
+    var num3 : int := 434
+    var num4 := intArray [N+N-1] of 15
+    function addPair(n1 : int, n2 : int) : int =
+        (n1 + n2)
+
+    function printNum(n1 : int) =
+        print (n1)
+in
+    (
+    printNum (num1);
+    printNum (num1);
+    num3 - (num2 * num1);
+    num3 / (num2 + 4);
+    if num2 < num3 then
+        addPair (num3, num2)
+    else
+        print (num3);
+
+        if num1 <> 33 & (num2 < 55 | num2 > 9000) then
+            print ("OH NOESSS")
+    )
+end;
+
+/******* Testing Loops ******/
+
+while 123 do 456;
+
+while 123 do 456 + 789;
+
+while 123 < 456 do if a then b;
+
+while (123 < 456) do ( asdf; while (123<456) do asdf);
+
+for a := 123 + 345 to while a do b 
+    do 
+        let 
+            type a = b 
+        in 
+            if 
+                a 
+            then
+                b 
+        end
+;
+
+intArray [N+N-1] of 15 = b;
+intArray [N+N-1] of 15 + b;
+
+for a :=1 to a do b
+
+        
+    
+)
